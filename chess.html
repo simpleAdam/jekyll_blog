@@ -1,0 +1,38 @@
+---
+layout: default
+---
+
+<style type="text/css" media="screen">
+  .container {
+    margin: 10px auto;
+    max-width: 600px;
+    text-align: center;
+  }
+  h1 {
+    margin: 30px 0;
+    font-size: 4em;
+    line-height: 1;
+    letter-spacing: -1px;
+  }
+  .list-item{
+    margin:40px 5px;
+  }
+</style>
+
+<div class="container">
+  <h1>Chess Page</h1>
+  <h4>World Champion playing chess and commenting on it.</h4>
+  <hr>
+<div class="list">
+  {% for member in site.data.chess %}
+  {% assign foo = "https://www.youtube.com/embed/"+member.url %}
+  <div class="list-item">
+    <h5>{{member.name}}</h5>
+    <h6>{{member.time}}</h6>
+{{member.url}}
+   
+  </div>
+  {% endfor %}
+</div>
+
+</div>

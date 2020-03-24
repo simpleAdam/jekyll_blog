@@ -1,0 +1,11 @@
+- name: Banter Blitz 1
+  url: <iframe width="700" height="440" src="https://www.youtube.com/embed/JYlapZwI6NQ" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+  time: "59:47"
+
+- name: Banter Blitz 2
+  url: <iframe width="700" height="440" src="https://www.youtube.com/embed/q1UX1PpVe34" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+  time: "1:34:47"
+
+- name: Banter Blitz 3
+  url: <iframe width="700" height="440" src="https://www.youtube.com/embed/HmUFS0SxLo8" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+  time: "1:53:02"
